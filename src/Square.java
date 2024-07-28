@@ -1,4 +1,4 @@
-public  class Square implements GeometricFigure {
+public class Square implements GeometricFigure {
     private double sideLength;
 
 
@@ -8,14 +8,10 @@ public  class Square implements GeometricFigure {
 
     }
 
-    //    @Override
-//    public double getAreaS(double sideLength) {
-//        return sideLength * sideLength;
-//    }
-   @Override
+    @Override
     public double getArea() {
         return sideLength * sideLength;
-}
+    }
 }
 
 

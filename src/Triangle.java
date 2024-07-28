@@ -1,4 +1,4 @@
-public  class Triangle implements GeometricFigure {
+public class Triangle implements GeometricFigure {
     private double a;
     private double h;
 
@@ -7,12 +7,8 @@ public  class Triangle implements GeometricFigure {
         this.h = h;
     }
 
-//    @Override
-//    public double getAreaT(double a, double h) {
-//        return 1/2*a*h;
-//    }
     public double getArea() {
-        return 0.5* a * h;
+        return 0.5 * a * h;
     }
 }
 
