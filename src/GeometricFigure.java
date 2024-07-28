@@ -1,5 +1,11 @@
 public interface GeometricFigure {
-    double getAreaTriangle();
+//    double getAreaC(double radius);
+//
+//
+//    double getAreaT(double a, double h);
+//
+//
+//    double getAreaS(double sideLength);
 
-    double getAreaCircle(double radius);
+    double getArea();
 }

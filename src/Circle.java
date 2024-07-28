@@ -1,4 +1,4 @@
-public class Circle implements GeometricFigure {
+public  class Circle implements GeometricFigure {
 
     private double radius;
 
@@ -6,8 +6,13 @@ public class Circle implements GeometricFigure {
         this.radius = radius;
     }
 
+//    @Override
+//    public double getAreaC(double radius) {
+//        return Math.PI * radius * radius;
+//    }
+
     @Override
-    public double getAreaCircle(double radius) {
+    public double getArea() {
         return Math.PI * radius * radius;
     }
 }
